@@ -1,17 +1,17 @@
 from distutils.core import setup
 setup(
-  name = 'Hexy',         
-  packages = ['hexy'],   
-  version = '1.4.4',      
-  license='MIT',        
-  description = 'A library that makes working with a hexagonal lattice easier.',   
-  author = 'Norbu Tsering',                   
-  author_email = 'norbu.tsering.cs@gmail.com',      
-  url = 'https://github.com/redft/hexy',   
+  name = 'Hexy',
+  packages = ['hexy'],
+  version = '1.5.0',
+  license='MIT',
+  description = 'A library that makes working with a hexagonal lattice easier.',
+  author = 'Norbu Tsering',
+  author_email = 'norbu.tsering.cs@gmail.com',
+  url = 'https://github.com/redft/hexy',
   download_url = 'https://github.com/RedFT/Hexy/archive/1.4.3.tar.gz',
   keywords = ['hexy', 'coordinate', 'hexagon', 'hexagonal'],
   install_requires = ["numpy >= 1.15.0"],
-  extras_require ={            
+  extras_require ={
       'tests': [
         "atomicwrites==1.1.5",
         "attrs==18.1.0",
@@ -24,11 +24,11 @@ setup(
         ]
       },
   classifiers=[
-    'Development Status :: 5 - Production/Stable',      
-    'Intended Audience :: Developers',      
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Developers',
     'Topic :: Software Development :: Libraries :: Python Modules',
-    'License :: OSI Approved :: MIT License',   
-    'Programming Language :: Python :: 2',      
-    'Programming Language :: Python :: 3',      
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 3',
   ],
 )

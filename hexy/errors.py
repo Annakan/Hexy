@@ -1,13 +1,16 @@
-class HexExistsError(Exception):
-    def __init__(self, message):
-        super(HexExistsError, self).__init__(message)
+class HexyError(Exception):
+    pass
+
+class HexExistsError(HexyError):
+    pass
 
 
-class IncorrectCoordinatesError(Exception):
-    def __init__(self, message):
-        super(IncorrectCoordinatesError, self).__init__(message)
+class IncorrectCoordinatesError(HexyError):
+    pass
 
 
-class MismatchError(Exception):
-    def __init__(self, message):
-        super(MismatchError, self).__init__(message)
+class MismatchError(HexyError):
+    pass
+
+class NoIndexerForMap(HexyError):
+    pass
